@@ -133,4 +133,10 @@ def main():
                 break
 
     finally:
-        cap
+        cap.release()
+        video_writer.release()
+        cv2.destroyAllWindows()
+
+
+if __name__ == "__main__":
+    main()
