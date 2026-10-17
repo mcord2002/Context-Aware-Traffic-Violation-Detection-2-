@@ -24,7 +24,7 @@ from event_manager import EventManager
 
 MODEL_PATH = "models/best.pt"
 VIDEO_PATH = "traffic.mp4"
-CONFIG_PATH = "road_config.json"
+CONFIG_PATH = Path(__file__).resolve().parent / "config" / "road_config.json"
 
 OUTPUT_DIR = "outputs"
 CONFIDENCE = 0.35
