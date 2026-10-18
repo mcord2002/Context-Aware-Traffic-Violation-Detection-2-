@@ -1,0 +1,17 @@
+path: ./dataset
+train: images/train
+val: images/val
+
+names:
+	0: person
+	1: motorcycle
+	2: car
+	3: bus
+	4: truck
+	5: helmet
+	6: no_helmet
+	7: seatbelt
+	8: no_seatbelt
+	9: cell_phone
+	10: red_light
+	11: green_light
