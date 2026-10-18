@@ -1,0 +1,21 @@
+{
+  "status": "software checks passed",
+  "tests": 8,
+  "streamlit": "initial-state smoke checks passed for all three pages",
+  "notebook": "JSON and Python code-cell syntax checks passed (Colab install/mount not executed here)",
+  "limitations": [
+    "No real user video supplied in this workspace.",
+    "Actual YOLO model download/detection was not executed; extraction API contract tested with a mock detector.",
+    "No trained risk model or research scores included.",
+    "Windows .bat launcher inspected but cannot execute on this Linux host."
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0",
+    "cv2": "5.0.0",
+    "streamlit": "1.66.1"
+  },
+  "batch_checks": "Deduplication, cached extraction reuse, per-video failure continuation and progress completion passed"
+}

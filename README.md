@@ -2,6 +2,22 @@
 
 YOLO11 + ByteTrack traffic violation detection prototype.
 
+## Component 04 app
+
+The separate vehicle-pair risk app is in [`new/`](new/START_HERE.md).
+It includes `app.py`, extraction and training code, the Colab notebook, tests,
+and the supplied `data/`, `artifacts/`, and `yolov8n.pt` files. Follow its
+[setup guide](new/START_HERE.md) and run `new/run_component04.bat` on Windows,
+or install `new/requirements.txt`, enter `new/`, and run:
+
+```bash
+python -m streamlit run app.py
+```
+
+The imported setup guide describes the original empty package; this repository
+copy includes the supplied footage, cached runs, and trained artifacts. Existing
+evaluation files are imported results, not a new evaluation of the model.
+
 ## Violations
 1. Helmet violation
 2. Seatbelt violation
