@@ -1,0 +1,18 @@
+{
+	"camera_id": "CAM_001",
+	"location": "Sri Lanka",
+	"stop_line": [[100, 400], [900, 400]],
+	"signal_roi": [400, 20, 600, 180],
+	"expected_direction": [0.0, 1.0],
+	"wrong_lane_polygon": [
+		[50, 200],
+		[450, 200],
+		[450, 700],
+		[50, 700]
+	],
+	"red_signal_confirm_frames": 3,
+	"wrong_lane_confirm_frames": 8,
+	"wrong_lane_enabled": false,
+	"red_light_enabled": true,
+	"lane_polygon_note": "Replace coordinates with the actual camera view. The polygon must represent a verified prohibited lane/region."
+}
