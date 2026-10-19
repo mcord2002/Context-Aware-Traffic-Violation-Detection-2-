@@ -1,0 +1,5 @@
+window_id,video_id,pair_a,pair_b,end_s,label,prediction,vote_share
+4e0ba6806ff7b1f5__1_2__5.000,4e0ba6806ff7b1f5,1,2,5.0,Developing Conflict,Increasing Risk,0.3068068783068787
+5b98f405480b3e8e__1_2__5.000,5b98f405480b3e8e,1,2,5.0,Increasing Risk,Increasing Risk,0.3495846560846566
+756a8e84d6d43e2e__5_8__5.000,756a8e84d6d43e2e,5,8,5.0,Normal,Increasing Risk,0.3613624338624344
+7bc4ce85e3402606__110_161__40.000,7bc4ce85e3402606,110,161,40.0,Critical Conflict / Collision,Increasing Risk,0.36236243386243433

@@ -1,0 +1,116 @@
+{
+  "schema": "image_pair_v1",
+  "random_state": 42,
+  "train_groups": [
+    "recording_06",
+    "recording_10",
+    "recording_11",
+    "recording_7",
+    "recording__05"
+  ],
+  "test_groups": [
+    "recording4",
+    "recording_02",
+    "recording_03",
+    "recording__01"
+  ],
+  "train_windows": 5,
+  "test_windows": 4,
+  "train_class_counts": {
+    "Increasing Risk": 2,
+    "Developing Conflict": 1,
+    "Critical Conflict / Collision": 1,
+    "Normal": 1
+  },
+  "test_class_counts": {
+    "Developing Conflict": 1,
+    "Increasing Risk": 1,
+    "Normal": 1,
+    "Critical Conflict / Collision": 1
+  },
+  "accuracy": 0.25,
+  "macro_f1": 0.1,
+  "balanced_accuracy": 0.25,
+  "quadratic_weighted_kappa": 0.0,
+  "majority_baseline_macro_f1": 0.1,
+  "classification_report": {
+    "Normal": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Increasing Risk": {
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1-score": 0.4,
+      "support": 1.0
+    },
+    "Developing Conflict": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Critical Conflict / Collision": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.25,
+    "macro avg": {
+      "precision": 0.0625,
+      "recall": 0.25,
+      "f1-score": 0.1,
+      "support": 4.0
+    },
+    "weighted avg": {
+      "precision": 0.0625,
+      "recall": 0.25,
+      "f1-score": 0.1,
+      "support": 4.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ]
+  ],
+  "states": [
+    "Normal",
+    "Increasing Risk",
+    "Developing Conflict",
+    "Critical Conflict / Collision"
+  ],
+  "probabilities": "Uncalibrated Random Forest vote proportions; not collision probabilities.",
+  "limitations": [
+    "Overlapping windows are correlated; counts are not independent event counts.",
+    "Pilot image-space model; perspective and tracker errors affect predictions.",
+    "No validated early-warning lead time, physical TTC or geographic generalization claim."
+  ],
+  "python": "3.11.5",
+  "sklearn": "1.8.0",
+  "dataset_sha256": "b2290fa0abef24a5ae68823872bc310fcae41a61f3e81a32468c6dde07d0f04f"
+}

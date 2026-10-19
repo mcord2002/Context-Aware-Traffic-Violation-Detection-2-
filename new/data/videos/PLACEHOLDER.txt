@@ -1,0 +1,1 @@
+This folder is populated when the application runs. No real dataset or trained model is bundled.

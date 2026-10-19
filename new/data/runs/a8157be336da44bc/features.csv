@@ -1,0 +1,1 @@
+window_id,video_id,pair_a,pair_b,start_s,end_s,separation_min,separation_mean,separation_last,closing_mean,closing_max,relative_speed_mean,speed_a_mean,speed_b_mean,speed_change_a,speed_change_b,direction_alignment,bbox_iou_max,approach_fraction,separation_change,coverage

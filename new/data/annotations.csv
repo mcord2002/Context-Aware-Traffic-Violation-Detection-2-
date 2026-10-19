@@ -1,0 +1,10 @@
+window_id,video_id,source_group,label,evidence,reviewer
+4e0ba6806ff7b1f5__1_2__5.000,4e0ba6806ff7b1f5,recording_02,Developing Conflict,developing risk and normal,component4
+756a8e84d6d43e2e__5_8__5.000,756a8e84d6d43e2e,recording_03,Normal,normal risk car is going straight through,component4
+5b98f405480b3e8e__1_2__5.000,5b98f405480b3e8e,recording4,Increasing Risk,last two frames are accidents,component4
+64c9355275305e9e__1_2__5.000,64c9355275305e9e,recording__05,Developing Conflict,clear evidence of high risk accident,component4
+d66464802c95e664__4_10__6.000,d66464802c95e664,recording_06,Increasing Risk,detected box goes normal but increasing risk,component4
+e1410a4f1259dea0__1_3__5.000,e1410a4f1259dea0,recording_7,Increasing Risk,increasing the risk of the white car,component4
+7bc4ce85e3402606__110_161__40.000,7bc4ce85e3402606,recording__01,Critical Conflict / Collision,"The two vehicles’ paths intersect, visible contact occurs, and their movement changes abruptly after impact",component4
+f428705fba9642f4__35_41__6.000,f428705fba9642f4,recording_10,Normal,"The two vehicles’ paths intersect, visible contact occurs, and their movement changes abruptly after impact",component4
+80cc2f31391f4711__11_12__12.000,80cc2f31391f4711,recording_11,Critical Conflict / Collision,ID11 and ID12 are critically getting closer and accident,component4

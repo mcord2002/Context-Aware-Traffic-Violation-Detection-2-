@@ -1,0 +1,12 @@
+{
+  "video_id": "b5d1d2482e8ed05c",
+  "source_sha256": "b5d1d2482e8ed05c7e9def05946ec2640068d749f08cc89a693f24332c3e16c1",
+  "source_name": "b5d1d2482e8ed05c.mp4",
+  "fps": 30.16928683054933,
+  "sample_hz": 5.028214471758221,
+  "processed_seconds": 8.618036,
+  "elapsed_seconds": 4.538230300007854,
+  "weights": "yolov8n.pt",
+  "units": "normalized image coordinates; no physical calibration",
+  "classes": "COCO car/motorcycle/bus/truck; three-wheelers may be missed/misclassified"
+}
