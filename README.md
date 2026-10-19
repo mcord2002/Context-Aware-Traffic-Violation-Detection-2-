@@ -126,9 +126,19 @@ Press **Q** in the video window to stop either detection script.
 
 outputs/detected_video.mp4
 
+## Event reports
+
+The [traffic_reports module](traffic_reports/README.md) summarizes saved event
+CSV files by camera, violation type, and review status without model dependencies.
+From the repository root:
+
+```bash
+python -m traffic_reports TrafficViolationAI/outputs/violation_events.csv --output reports/summary.json
+```
+
 ## Development checks
 
-From the repository root, run the video detection tests:
+From the repository root, run the video detection and event report tests:
 
 ```bash
 python -B -m unittest discover -s tests -v
@@ -137,6 +147,8 @@ python -B -m unittest discover -s tests -v
 These tests use mock video and model objects, so they do not require trained
 weights, OpenCV, or Ultralytics. They cover argument validation, headless
 processing, preview exit, invalid video metadata, and resource cleanup.
+The report tests also cover CSV validation, category totals, JSON export,
+and protection against overwriting the source CSV.
 
 ## Research limitations
 
