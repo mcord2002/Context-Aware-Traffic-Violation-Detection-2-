@@ -67,11 +67,13 @@ Copy `best.pt` into the `models/` folder.
 
 Windows (PowerShell):
 ```powershell
+New-Item -ItemType Directory -Force -Path .\models | Out-Null
 Copy-Item .\runs\detect\traffic_train\weights\best.pt .\models\best.pt
 ```
 
 Ubuntu/Linux:
 ```bash
+mkdir -p models
 cp runs/detect/traffic_train/weights/best.pt models/best.pt
 ```
 
@@ -91,9 +93,50 @@ python detect_video.py
 
 The annotated video is saved to `outputs/detected_video.mp4`.
 
+Use command-line options to select different files or run without a preview
+window (for example, on a server):
+
+```bash
+python detect_video.py --model models/best.pt --video traffic.mp4 --output outputs/review.mp4 --confidence 0.5 --no-display
+```
+
+Run `python detect_video.py --help` to see all options. Confidence must be
+between 0 and 1. The output must be an MP4 file distinct from the input video
+and model. Missing inputs, unreadable videos, and output writer failures are
+reported as errors. Videos with missing or invalid FPS metadata use 25 FPS.
+
+## Run violation analysis
+
+Edit `TrafficViolationAI/config/road_config.json` to match the camera view,
+including the stop line and traffic signal region. Wrong-lane detection is
+disabled by default; configure its polygon before enabling it.
+
+With the trained model and input video in place, run from the
+`TrafficViolationAI/` folder:
+
+```bash
+python main.py
+```
+
+This runs the violation modules and saves `outputs/annotated_video.mp4`,
+`outputs/violation_events.csv`, and evidence images in `outputs/evidence/`.
+Press **Q** in the video window to stop either detection script.
+
 ## Outputs
 
 outputs/detected_video.mp4
+
+## Development checks
+
+From the repository root, run the video detection tests:
+
+```bash
+python -B -m unittest discover -s tests -v
+```
+
+These tests use mock video and model objects, so they do not require trained
+weights, OpenCV, or Ultralytics. They cover argument validation, headless
+processing, preview exit, invalid video metadata, and resource cleanup.
 
 ## Research limitations
 
