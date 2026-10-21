@@ -236,10 +236,7 @@ def main():
                 break
 
     finally:
-        cap.release()
-        video_writer.release()
-        manager.close()
-        cv2.destroyAllWindows()
+       
 
     print("Finished. Check outputs/.")
 
