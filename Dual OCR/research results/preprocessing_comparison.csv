@@ -1,0 +1,117 @@
+image,plate_index,method,recognized_text,normalized_text,ocr_confidence,has_text
+Cars10.png,1,Original,TN 37 Cs 7765,TN37CS7765,0.8321746495193421,True
+Cars10.png,1,CLAHE,TN 37 Cs 7765,TN37CS7765,0.6102903246777436,True
+Cars10.png,1,Adaptive,(C5 'TTIN 37 7665,C5TTIN377665,0.6506932770654096,True
+Cars10.png,1,Denoised,TN 37 Cs 7765,TN37CS7765,0.929336909089362,True
+Cars106.png,1,Original,,,0.0,False
+Cars106.png,1,CLAHE,,,0.0,False
+Cars106.png,1,Adaptive,,,0.0,False
+Cars106.png,1,Denoised,,,0.0,False
+Cars106.png,2,Original,,,0.0,False
+Cars106.png,2,CLAHE,,,0.0,False
+Cars106.png,2,Adaptive,,,0.0,False
+Cars106.png,2,Denoised,,,0.0,False
+Cars106.png,3,Original,,,0.0,False
+Cars106.png,3,CLAHE,,,0.0,False
+Cars106.png,3,Adaptive,,,0.0,False
+Cars106.png,3,Denoised,,,0.0,False
+Cars129.png,1,Original,VRGINIA OPEC Loi,VRGINIAOPECLOI,0.6027897731351375,True
+Cars129.png,1,CLAHE,VIRGINIA OPEC Loi,VIRGINIAOPECLOI,0.6793668452040965,True
+Cars129.png,1,Adaptive,LL 240) 3 VIRcixla OPEC 48z2 LOl,LL2403VIRCIXLAOPEC48Z2LOL,0.25919695664490094,True
+Cars129.png,1,Denoised,MROINA OPEC Loi,MROINAOPECLOI,0.6936170718579819,True
+Cars132.png,1,Original,,,0.0,False
+Cars132.png,1,CLAHE,,,0.0,False
+Cars132.png,1,Adaptive,,,0.0,False
+Cars132.png,1,Denoised,,,0.0,False
+Cars132.png,2,Original,,,0.0,False
+Cars132.png,2,CLAHE,,,0.0,False
+Cars132.png,2,Adaptive,,,0.0,False
+Cars132.png,2,Denoised,,,0.0,False
+Cars137.png,1,Original,,,0.0,False
+Cars137.png,1,CLAHE,Acu,ACU,0.017576499980009905,True
+Cars137.png,1,Adaptive,,,0.0,False
+Cars137.png,1,Denoised,,,0.0,False
+Cars146.png,1,Original,,,0.0,False
+Cars146.png,1,CLAHE,,,0.0,False
+Cars146.png,1,Adaptive,LpL,LPL,0.012532556705200917,True
+Cars146.png,1,Denoised,,,0.0,False
+Cars146.png,2,Original,,,0.0,False
+Cars146.png,2,CLAHE,,,0.0,False
+Cars146.png,2,Adaptive,,,0.0,False
+Cars146.png,2,Denoised,,,0.0,False
+Cars146.png,3,Original,,,0.0,False
+Cars146.png,3,CLAHE,,,0.0,False
+Cars146.png,3,Adaptive,,,0.0,False
+Cars146.png,3,Denoised,,,0.0,False
+Cars148.png,1,Original,MH 01 BB.550 s,MH01BB550S,0.21207587469032027,True
+Cars148.png,1,CLAHE,MH 01*BB*550 6s,MH01BB5506S,0.11649562939261171,True
+Cars148.png,1,Adaptive,4804bu s0,4804BUS0,0.0032314585096774235,True
+Cars148.png,1,Denoised,MH 01 BB 550,MH01BB550,0.07343861422317796,True
+Cars151.png,1,Original,Dl3c3d6082,DL3C3D6082,0.03390292316352953,True
+Cars151.png,1,CLAHE,03C CbD5L2],03CCBD5L2,0.18318214413308456,True
+Cars151.png,1,Adaptive,DL3C205827,DL3C205827,0.2115907905458528,True
+Cars151.png,1,Denoised,D2c3de02,D2C3DE02,0.021705778698157815,True
+Cars16.png,1,Original,,,0.0,False
+Cars16.png,1,CLAHE,DSr,DSR,0.006226207086002521,True
+Cars16.png,1,Adaptive,,,0.0,False
+Cars16.png,1,Denoised,,,0.0,False
+Cars16.png,2,Original,,,0.0,False
+Cars16.png,2,CLAHE,,,0.0,False
+Cars16.png,2,Adaptive,,,0.0,False
+Cars16.png,2,Denoised,,,0.0,False
+Cars168.png,1,Original,,,0.0,False
+Cars168.png,1,CLAHE,,,0.0,False
+Cars168.png,1,Adaptive,,,0.0,False
+Cars168.png,1,Denoised,,,0.0,False
+Cars183.png,1,Original,BRIT 0001,BRIT0001,0.9997319598184727,True
+Cars183.png,1,CLAHE,BRIT 0001,BRIT0001,0.9696144039961796,True
+Cars183.png,1,Adaptive,BRIT 0001,BRIT0001,0.9953706110849502,True
+Cars183.png,1,Denoised,BRIT 0001,BRIT0001,0.9996622118194529,True
+Cars208.png,1,Original,(tuo V-8,TUOV8,0.23136936679250714,True
+Cars208.png,1,CLAHE,4iimtu WI V8,4IIMTUWIV8,0.45200457740467703,True
+Cars208.png,1,Adaptive,#Mm (0 014 V*8 '243,MM0014V8243,0.24362587097780805,True
+Cars208.png,1,Denoised,V*8,V8,0.36976969003060484,True
+Cars240.png,1,Original,4 CD Af,4CDAF,0.4760237920045267,True
+Cars240.png,1,CLAHE,CD AE,CDAE,0.6815845440824809,True
+Cars240.png,1,Adaptive,61 C @,61C,0.4141031315278198,True
+Cars240.png,1,Denoised,4 Cd Af,4CDAF,0.5262619571793447,True
+Cars246.png,1,Original,TC 78 TSta,TC78TSTA,0.19868236028150388,True
+Cars246.png,1,CLAHE,TS6 Ic %,TS6IC,0.043261922837690925,True
+Cars246.png,1,Adaptive,TC 2e8 TS (H},TC2E8TSH,0.328837798152499,True
+Cars246.png,1,Denoised,Ic % a,ICA,0.17709536227689116,True
+Cars250.png,1,Original,L PGoM12,LPGOM12,0.322801252371499,True
+Cars250.png,1,CLAHE,PGeMN2,PGEMN2,0.5761622360247817,True
+Cars250.png,1,Adaptive,PGoHN112,PGOHN112,0.823675361012039,True
+Cars250.png,1,Denoised,PGoN12,PGON12,0.2412795260617715,True
+Cars27.png,1,Original,DZI7 YXR,DZI7YXR,0.8904454736605333,True
+Cars27.png,1,CLAHE,DZI7 YXR,DZI7YXR,0.5990508462591058,True
+Cars27.png,1,Adaptive,DZIZ YXR,DZIZYXR,0.9511502782651532,True
+Cars27.png,1,Denoised,DZI7 YXR,DZI7YXR,0.7414249752568136,True
+Cars271.png,1,Original,bosS ES,BOSSES,0.3056034246889433,True
+Cars271.png,1,CLAHE,posS  YES,POSSYES,0.26370308106312473,True
+Cars271.png,1,Adaptive,"""YES Boss;",YESBOSS,0.2351422328572425,True
+Cars271.png,1,Denoised,yes boss,YESBOSS,0.4831402422766499,True
+Cars277.png,1,Original,a alamy stock photo,AALAMYSTOCKPHOTO,0.9998677071009137,True
+Cars277.png,1,CLAHE,a alamy stock photo,AALAMYSTOCKPHOTO,0.9958642931629922,True
+Cars277.png,1,Adaptive,a lalamystockphoto,ALALAMYSTOCKPHOTO,0.8744748371192962,True
+Cars277.png,1,Denoised,a alamy stock photo,AALAMYSTOCKPHOTO,0.9689144879649974,True
+Cars277.png,2,Original,,,0.0,False
+Cars277.png,2,CLAHE,,,0.0,False
+Cars277.png,2,Adaptive,Ln,LN,0.04186774319777242,True
+Cars277.png,2,Denoised,,,0.0,False
+Cars277.png,3,Original,AMFREX,AMFREX,0.1472850854511548,True
+Cars277.png,3,CLAHE,'AMFREX,AMFREX,0.4298931252010362,True
+Cars277.png,3,Adaptive,"""iwAwarexwAA""",IWAWAREXWAA,0.016881426743036516,True
+Cars277.png,3,Denoised,Averex,AVEREX,0.09433687412051969,True
+Cars277.png,4,Original,,,0.0,False
+Cars277.png,4,CLAHE,,,0.0,False
+Cars277.png,4,Adaptive,,,0.0,False
+Cars277.png,4,Denoised,,,0.0,False
+Cars277.png,5,Original,,,0.0,False
+Cars277.png,5,CLAHE,,,0.0,False
+Cars277.png,5,Adaptive,VMI,VMI,0.4484864871183695,True
+Cars277.png,5,Denoised,,,0.0,False
+Cars287.png,1,Original,DL7C N 5617,DL7CN5617,0.7676815156398368,True
+Cars287.png,1,CLAHE,DLZC N 5617,DLZCN5617,0.6272863762428833,True
+Cars287.png,1,Adaptive,IDL?C N 5617,IDLCN5617,0.7292833769195922,True
+Cars287.png,1,Denoised,DL7C N 5617,DL7CN5617,0.8241746009411746,True

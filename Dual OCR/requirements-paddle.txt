@@ -1,0 +1,6 @@
+# Optional; install only after the base requirements have installed successfully.
+# CPU installation. Use Python 3.11, then install in this order:
+# python -m pip install "paddlepaddle>=3.0,<4"
+# python -m pip install "paddleocr>=3.0,<4"
+paddlepaddle>=3.0,<4
+paddleocr>=3.0,<4
