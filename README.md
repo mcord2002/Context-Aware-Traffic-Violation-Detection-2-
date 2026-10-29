@@ -1,4 +1,5 @@
-# Component 03: Traffic Intelligence Dashboard
+# Component 03: Occlusion-Aware Physics-Vision Traffic Accident Verification and Dynamic Severity Classification
+
 
 A local, CPU-capable research prototype for analyzing traffic CCTV videos. This component detects and tracks vehicles, estimates whether sampled video frames show a possible accident, and generates an annotated video with downloadable analysis results.
 
