@@ -114,7 +114,7 @@ Use this prototype for research and demonstration. Evaluate it on representative
 
 Prepare and annotate the video dataset before training. The project workflow includes a dataset-preparation stage, YOLO vehicle-detection training/evaluation, and ResNet18 accident-classification training/evaluation. Refer to the corresponding project notebooks for the exact dataset paths, training configuration, class mappings, and evaluation procedures.
 
-## dataset
+## Dataset
 contains serious traffic incidents caused by rain, vandalism or other factors, with a total of 344 videos covering 277 positive ones with traffic accidents and 127 negative ones without traffic accidents.
 
 We made the TAD dataset publicly available on GitHub. We ensured that researchers worldwide can access and utilize this valuable resource for further research and development, fostering collaboration and innovation in the field.
