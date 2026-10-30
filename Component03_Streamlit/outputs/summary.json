@@ -1,0 +1,9 @@
+{
+  "video_level_status": "POSSIBLE ACCIDENT",
+  "peak_accident_score": 0.99985671043396,
+  "suspected_event_sec": 8.0,
+  "tracker_segments": 24,
+  "candidate_pairs": 2,
+  "verified_recoveries": 0,
+  "processing": "offline CPU prototype"
+}
